@@ -14,7 +14,7 @@ exports.createTodo = async(req, res) => {
         res.status(200).json(
             {
                 success:true,
-                data:response,
+                data:response, 
                 message:"Entry Created Successfully"
             }
         );
